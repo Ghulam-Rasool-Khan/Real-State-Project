@@ -65,7 +65,8 @@ function Projects() {
         <div className={`flex gap-10 md:gap-2 transition-transform duration-1000 ease-in-out px-5 md:px-0`}
           style={{
             transform: `translateX(-${(currentIndex * 100) / cardsToShow}%)`
-          }}>
+          }}
+        >
           
           {projectsData.map((project, index) => {
             return (

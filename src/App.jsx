@@ -11,13 +11,13 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   return (
     <div className=" w-full  overflow-hidden">
-      <ToastContainer></ToastContainer>
+      <ToastContainer/>
       <Header></Header>
-      <About></About>
-      <Projects></Projects>
-      <Testimonial></Testimonial>
-      <Contact></Contact>
-      <Footer></Footer>
+      <About/>
+      <Projects/>
+      <Testimonial/>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }
